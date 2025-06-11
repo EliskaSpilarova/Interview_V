@@ -26,7 +26,7 @@ def compute_distances(df, cities):
         )
     return df
 
-# filtrování podle parametrů
+# filtrování objektů podle paramentrů
 def filter_city(df, city):
     dist_col = f'distance_to_{city.lower()}'
     return df[
